@@ -1,4 +1,4 @@
-package edu.cofc.myapplication.model;
+package edu.cofc.briggs.myapplication.model;
 
 public class FriendlyMessage {
     private String text;

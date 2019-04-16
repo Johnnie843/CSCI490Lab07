@@ -1,4 +1,4 @@
-package edu.cofc.myapplication.adapter;
+package edu.cofc.briggs.myapplication.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,6 +14,7 @@ import java.util.List;
 
 import edu.cofc.briggs.myapplication.R;
 import edu.cofc.briggs.myapplication.model.FriendlyMessage;
+
 
 public class MessageAdapter extends ArrayAdapter<FriendlyMessage> {
 

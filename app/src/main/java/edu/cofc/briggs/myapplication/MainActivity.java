@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 
-    public static final String ANONYMOUS = "anonymous";
+    public static final String ANONYMOUS = "Johnnie";
     public static final int DEFAULT_MSG_LENGTH_LIMIT = 1000;
     FirebaseStorage mFirebaseStorage;
 
@@ -284,7 +284,7 @@ public class MainActivity extends AppCompatActivity {
             // Get a reference to store file in chat_photos/<filename>
             StorageReference photoReference = mChatPhotosStorageReference.child(selectedURI.getLastPathSegment());
 
-            // Put file in Firebase
+
             // Put file in Firebase
             photoReference.putFile(selectedURI).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
